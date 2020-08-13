@@ -93,10 +93,10 @@ root.configure(bg="grey")
 root.resizable(0, 0)
 
 # header part
-frame=Frame(root, borderwidth=2, bg="black")
+frame = Frame(root, borderwidth=2, bg="black")
 frame.grid(row=0, column=0, padx=120, pady=10)
 
-l1=Label(frame, text="Automatic Attendance System", fg="black", bg="yellow", font="comicsansms 20 bold")
+l1 = Label(frame, text="Automatic Attendance System", fg="black", bg="yellow", font="comicsansms 20 bold")
 l1.grid(row=0, column=0)
 
 
