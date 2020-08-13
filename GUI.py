@@ -1,5 +1,4 @@
 from tkinter import *
-from face3 import *
 
 root = Tk()
 
@@ -31,7 +30,7 @@ l5=Label(f1,text="Get Attendance Report",height=1,width=30,bg="black",fg="white"
 l5.grid(row=3, column=0)
 
 
-b1 = Button(f1, fg="white", bg="blue",height=1,width=30,font="comicsansms 10 bold ", text="Attendance",command=check)
+b1 = Button(f1, fg="white", bg="blue",height=1,width=30,font="comicsansms 10 bold ", text="Attendance")
 # b1.pack(side="left",padx=40)
 b1.grid(row=0, column=3,pady=20,padx=8)
 
@@ -39,7 +38,7 @@ b2 = Button(f1, fg="white", bg="grey",height=1,width=30,font="comicsansms 10 bol
 # b2.pack(side="left",padx=40)
 b2.grid(row=1, column=3,pady=20,padx=8)
 
-b3 = Button(f1, fg="white", bg="red",height=1,width=30,font="comicsansms 10 bold ", text="Train Image",command=input_images)
+b3 = Button(f1, fg="white", bg="red",height=1,width=30,font="comicsansms 10 bold ", text="Train Image")
 # b3.pack(side="left",padx=40)
 b3.grid(row=2, column=3,pady=20,padx=8)
 
